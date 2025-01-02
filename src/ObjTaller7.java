@@ -27,5 +27,9 @@ public class ObjTaller7 {
         
         oa[0] = oa[2];
         oa[0].descripcion();
+        EnanaBlanca boa = new EnanaBlanca();
+        boa.explotar();
+        boa.descripcion();
+        boa.agotarCombustible();
     }
 }
